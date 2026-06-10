@@ -1,0 +1,23 @@
+### Endpoint GET /api/produtos
+GET http://localhost:3000/api/produtos
+
+### Endpoint POST /api/produtos
+POST http://localhost:3000/api/produtos
+Content-Type: application/json
+ 
+{
+  "nome": "Produto D",
+  "preco": 20.0
+}
+
+### Endpoint PUT /api/produtos/{id}
+PUT http://localhost:3000/api/produtos/1
+Content-Type: application/json
+    
+{
+      "nome": "Produto Atualizado",
+      "preco": 60.0
+}
+
+### Endpoint 
+DELETE /api/produtos/{id} DELETE http://localhost:3000/api/produtos/1
